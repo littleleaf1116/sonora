@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="SONORA is a creative studio exploring music, culture and visual storytelling.">
+
+    <title>SONORA® | Music & Culture Creative Studio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Main JavaScript file -->
+    <script src="javaScript/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header and navigation -->
+    <header class="header" id="top">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo" aria-label="SONORA Home">
+                SONORA<span>®</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-menu">
+
+                <span></span>
+                <span></span>
+
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li>
+                    <a href="#contact" class="nav-contact">
+                        CONTACT ↗
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- Hero section -->
+        <section class="hero" id="home">
+
+            <img
+                class="hero-image"
+                src="assets/images/hero-artist.jpg"
+                alt="Female R&B artist in a dreamy purple editorial photoshoot"
+            >
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="hero-label">MUSIC & CULTURE CREATIVE STUDIO</p>
+
+                <h1 class="hero-title" aria-label="Feel the sound. See the vision.">
+
+                    <span class="typing-line" data-text="FEEL THE SOUND."></span>
+
+                    <span class="typing-line" data-text="SEE THE VISION."></span>
+
+                </h1>
+
+                <p class="hero-description">
+                    We transform music into visual experiences
+                    through creativity, design and culture.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#work" class="hero-button">
+                        EXPLORE OUR WORK ↗
+                    </a>
+
+                    <a href="#contact" class="hero-button hero-button-outline">
+                        REQUEST A PROPOSAL ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+
+                <span>TORONTO · CREATIVE STUDIO</span>
+
+                <a href="#about">SCROLL TO EXPLORE ↓</a>
+
+            </div>
+
+        </section>
+
+
+        <!-- About section -->
+        <section class="about section-padding" id="about">
+
+            <div class="section-label">
+                <span>01 / ABOUT</span>
+                <span>GET TO KNOW US</span>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-image reveal">
+
+                    <img
+                        src="assets/images/about-artist.jpg"
+                        alt="A diverse creative team discussing visual ideas in a music studio"
+                    >
+
+                </div>
+
+                <div class="about-content reveal">
+
+                    <p class="eyebrow">WHO WE ARE</p>
+
+                    <h2>
+                        MUSIC IS MORE<br>
+                        THAN WHAT<br>
+                        YOU HEAR.
+                    </h2>
+
+                    <p>
+                        SONORA is a creative studio exploring the
+                        intersection of music, culture and visual
+                        storytelling.
+                    </p>
+
+                    <p>
+                        We transform sound into visual experiences
+                        through creative direction, design,
+                        photography and digital experiences.
+                    </p>
+
+                    <div class="about-keywords">
+
+                        <span>CREATIVITY</span>
+                        <span>CULTURE</span>
+                        <span>IDENTITY</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Portfolio section -->
+        <section class="portfolio section-padding" id="work">
+
+            <div class="section-label">
+                <span>02 / SELECTED WORK</span>
+                <span>A COLLECTION OF CREATIVE PROJECTS</span>
+            </div>
+
+            <!-- Decorative vinyl record -->
+            <div class="portfolio-vinyl" aria-hidden="true">
+
+                <img
+                    src="assets/images/CD.gif"
+                    alt=""
+                >
+
+            </div>
+
+            <div class="section-heading">
+
+                <h2>OUR PORTFOLIO</h2>
+
+                <p>
+                    Different sounds. Different stories.
+                    One creative vision.
+                </p>
+
+            </div>
+
+
+            <!-- Portfolio filter buttons -->
+            <div class="portfolio-filters">
+
+                <button class="filter-btn active"
+                        type="button"
+                        data-filter="all"
+                        aria-pressed="true">
+                    ALL WORK
+                </button>
+
+                <button class="filter-btn"
+                        type="button"
+                        data-filter="rnb"
+                        aria-pressed="false">
+                    R&B
+                </button>
+
+                <button class="filter-btn"
+                        type="button"
+                        data-filter="hiphop"
+                        aria-pressed="false">
+                    HIP-HOP
+                </button>
+
+                <button class="filter-btn"
+                        type="button"
+                        data-filter="pop"
+                        aria-pressed="false">
+                    POP
+                </button>
+
+            </div>
+
+            <!-- Hint to let visitors know the portfolio is horizontally scrollable -->
+            <div class="portfolio-scroll-hint">
+                <span class="scroll-arrow">&lt;</span>
+                <span>SCROLL / SWIPE TO EXPLORE</span>
+                <span class="scroll-arrow">&gt;</span>
+            </div>
+
+            <!-- Portfolio project cards -->
+            <div class="portfolio-grid">
+
+                <article class="project-card reveal"
+                         data-category="rnb">
+
+                    <div class="project-image">
+
+                        <img
+                            src="assets/images/project-echoes.jpg"
+                            alt="Dreamy R&B album artwork in a green natural setting"
+                        >
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div>
+                            <h3>ECHOES</h3>
+                            <p>R&B / ALBUM ARTWORK</p>
+                        </div>
+
+                        <span>01</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal"
+                         data-category="hiphop">
+
+                    <div class="project-image">
+
+                        <img
+                            src="assets/images/project-no-signal.jpg"
+                            alt="Hip-hop artist streetwear editorial photography"
+                        >
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div>
+                            <h3>NO SIGNAL</h3>
+                            <p>HIP-HOP / ARTIST BRANDING</p>
+                        </div>
+
+                        <span>02</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal"
+                         data-category="pop">
+
+                    <div class="project-image">
+
+                        <img
+                            src="assets/images/project-sweet-escape.jpg"
+                            alt="Pink and purple pop music creative campaign"
+                        >
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div>
+                            <h3>SWEET ESCAPE</h3>
+                            <p>POP / CREATIVE CAMPAIGN</p>
+                        </div>
+
+                        <span>03</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal"
+                         data-category="rnb">
+
+                    <div class="project-image">
+
+                        <img
+                            src="assets/images/project-afterglow.jpg"
+                            alt="Purple live concert stage and performance visuals"
+                        >
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div>
+                            <h3>AFTERGLOW</h3>
+                            <p>R&B / LIVE VISUALS</p>
+                        </div>
+
+                        <span>04</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Services section -->
+        <section class="services section-padding" id="services">
+
+            <div class="section-label">
+                <span>03 / WHAT WE DO</span>
+                <span>OUR CREATIVE SERVICES</span>
+            </div>
+
+            <div class="services-heading">
+
+                <h2>WHAT WE DO</h2>
+
+                <p>
+                    From the first idea to the final experience,
+                    we bring creative visions to life.
+                </p>
+
+            </div>
+
+
+            <!-- Each service opens a detail window -->
+            <div class="services-list">
+
+
+                <!-- Artist Identity -->
+                <button class="service-item"
+                        type="button"
+                        data-service="identity">
+
+                    <span class="service-number">01</span>
+
+                    <img
+                        class="service-thumbnail"
+                        src="assets/images/service-artist-identity.jpg"
+                        alt="Service example of artist identity including logo, branding and visual direction"
+                    >
+
+                    <span class="service-content">
+
+                        <strong>ARTIST IDENTITY</strong>
+
+                        <small>
+                            Building distinctive visual identities,
+                            branding and creative direction for artists.
+                        </small>
+
+                    </span>
+
+                    <span class="service-arrow">↗</span>
+
+                </button>
+
+
+                <!-- Music Artwork -->
+                <button class="service-item"
+                        type="button"
+                        data-service="artwork">
+
+                    <span class="service-number">02</span>
+
+                    <img
+                        class="service-thumbnail"
+                        src="assets/images/service-music-artwork.jpg"
+                        alt="Service example of music artwork including album covers and promotional graphics"
+                    >
+
+                    <span class="service-content">
+
+                        <strong>MUSIC ARTWORK</strong>
+
+                        <small>
+                            Album covers, single artwork,
+                            promotional graphics and digital visuals.
+                        </small>
+
+                    </span>
+
+                    <span class="service-arrow">↗</span>
+
+                </button>
+
+
+                <!-- Creative Campaigns -->
+                <button class="service-item"
+                        type="button"
+                        data-service="campaigns">
+
+                    <span class="service-number">03</span>
+
+                    <img
+                        class="service-thumbnail"
+                        src="assets/images/service-creative-campaigns.jpg"
+                        alt="Service example of a pop music creative campaign with photography and social media content"
+                    >
+
+                    <span class="service-content">
+
+                        <strong>CREATIVE CAMPAIGNS</strong>
+
+                        <small>
+                            Photography, advertising, music campaigns
+                            and social media content.
+                        </small>
+
+                    </span>
+
+                    <span class="service-arrow">↗</span>
+
+                </button>
+
+
+                <!-- Live Experiences -->
+                <button class="service-item"
+                        type="button"
+                        data-service="live">
+
+                    <span class="service-number">04</span>
+
+                    <img
+                        class="service-thumbnail"
+                        src="assets/images/service-live-experiences.jpg"
+                        alt="Service example of live concert stage visuals and creative direction"
+                    >
+
+                    <span class="service-content">
+
+                        <strong>LIVE EXPERIENCES</strong>
+
+                        <small>
+                            Music festival branding, stage visuals
+                            and live event creative direction.
+                        </small>
+
+                    </span>
+
+                    <span class="service-arrow">↗</span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Creative process section -->
+        <section class="process section-padding" id="process">
+
+            <div class="section-label">
+                <span>04 / BEHIND THE SOUND</span>
+                <span>OUR CREATIVE PROCESS</span>
+            </div>
+
+            <div class="process-heading">
+
+                <h2>FROM SOUND<br>TO VISION.</h2>
+
+                <p>
+                    Every project begins with an idea.
+                    We turn that idea into something people can see,
+                    feel and remember.
+                </p>
+
+            </div>
+
+
+            <div class="process-grid">
+
+                <div class="process-image reveal">
+
+                    <img
+                        src="assets/images/creative-process.jpg"
+                        alt="A diverse creative team working together on music moodboards and visual concepts"
+                    >
+
+                </div>
+
+
+                <div class="process-steps">
+
+                    <div class="process-step reveal">
+
+                        <span>01</span>
+
+                        <div>
+                            <h3>DISCOVER</h3>
+                            <p>
+                                We learn about your music,
+                                audience and creative vision.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process-step reveal">
+
+                        <span>02</span>
+
+                        <div>
+                            <h3>CONCEPT</h3>
+                            <p>
+                                We develop ideas, references
+                                and a clear visual direction.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process-step reveal">
+
+                        <span>03</span>
+
+                        <div>
+                            <h3>CREATE</h3>
+                            <p>
+                                We bring the concept to life
+                                through design and production.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process-step reveal">
+
+                        <span>04</span>
+
+                        <div>
+                            <h3>CONNECT</h3>
+                            <p>
+                                We deliver the final experience
+                                and connect your vision with your audience.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact section -->
+        <section class="contact section-padding" id="contact">
+
+            <div class="section-label">
+                <span>05 / GET IN TOUCH</span>
+                <span>LET'S CONNECT</span>
+            </div>
+
+            <div class="contact-content">
+
+                <div class="contact-heading">
+
+                    <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+
+                    <h2>
+                        LET'S MAKE<br>
+                        SOMETHING THAT<br>
+                        RESONATES.
+                    </h2>
+
+                    <p>
+                        Tell us about your next idea.
+                        We'd love to hear what you're creating.
+                    </p>
+
+
+                    <!-- Contact information -->
+                    <div class="contact-information">
+
+                        <div class="contact-detail">
+
+                            <span>☎ PHONE</span>
+
+                            <a href="tel:+11234567890">
+                                +1 (123) 456-7890
+                            </a>
+
+                        </div>
+
+                        <div class="contact-detail">
+
+                            <span>✉ EMAIL</span>
+
+                            <a href="mailto:hello@sonora.studio">
+                                hello@sonora.studio
+                            </a>
+
+                        </div>
+
+                        <div class="contact-detail">
+
+                            <span>𖡡 LOCATION</span>
+
+                            <p>TORONTO, CANADA</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Contact form -->
+                <form class="contact-form"
+                      id="contact-form"
+                      novalidate>
+
+                    <!-- Name field -->
+                    <div class="form-group">
+
+                        <label for="name">YOUR NAME *</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            autocomplete="name"
+                            aria-describedby="name-error"
+                            required
+                        >
+
+                        <span class="error-message"
+                              id="name-error"></span>
+
+                    </div>
+
+
+                    <!-- Email field -->
+                    <div class="form-group">
+
+                        <label for="email">EMAIL ADDRESS *</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            aria-describedby="email-error"
+                            required
+                        >
+
+                        <span class="error-message"
+                              id="email-error"></span>
+
+                    </div>
+
+
+                    <!-- Phone number -->
+                    <div class="form-group">
+
+                        <label for="phone">PHONE NUMBER</label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="+1 (XXX) XXX-XXXX"
+                            autocomplete="tel"
+                        >
+
+                    </div>
+
+                    <!-- Artist or brand name -->
+                    <div class="form-group">
+
+                        <label for="artist">ARTIST / BRAND</label>
+
+                        <input
+                            type="text"
+                            id="artist"
+                            name="artist"
+                            placeholder="Artist or brand name"
+                        >
+
+                    </div>
+
+
+                    <!-- Project type dropdown -->
+                    <div class="form-group">
+
+                        <label for="project-type">PROJECT TYPE *</label>
+
+                        <select
+                            id="project-type"
+                            name="project-type"
+                            aria-describedby="project-error"
+                            required
+                        >
+
+                            <option value="">Select a service</option>
+
+                            <option value="Artist Identity">
+                                Artist Identity
+                            </option>
+
+                            <option value="Music Artwork">
+                                Music Artwork
+                            </option>
+
+                            <option value="Creative Campaigns">
+                                Creative Campaigns
+                            </option>
+
+                            <option value="Live Experiences">
+                                Live Experiences
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                        <span class="error-message"
+                              id="project-error"></span>
+
+                    </div>
+
+
+                    <!-- Packages appear after selecting a service -->
+                    <div class="package-selection" id="package-selection" hidden>
+
+                        <div class="package-heading">
+
+                            <p id="package-selection-label">
+                                CHOOSE YOUR PACKAGE *
+                            </p>
+
+                            <p>
+                                Compare our packages and select the one
+                                that suits your project.
+                            </p>
+
+                        </div>
+
+                        <!-- JavaScript adds the package cards here -->
+                        <div
+                            class="package-grid"
+                            id="package-grid"
+                            role="group"
+                            aria-labelledby="package-selection-label"
+                        ></div>
+
+                        <!-- Saves the selected package -->
+                        <input
+                            type="hidden"
+                            id="selected-package"
+                            name="selected-package"
+                        >
+
+                        <!-- Shows package selection errors -->
+                        <span
+                            class="package-error"
+                            id="package-error"
+                            role="alert"
+                            aria-live="polite"
+                        ></span>
+
+                    </div>
+
+
+                    <!-- Project message -->
+                    <div class="form-group">
+
+                        <label for="message">TELL US ABOUT YOUR PROJECT *</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Tell us about your ideas..."
+                            aria-describedby="message-error"
+                            required
+                        ></textarea>
+
+                        <span class="error-message"
+                              id="message-error"></span>
+
+                    </div>
+
+                    <!-- File attachment button -->
+                    <div class="form-group file-upload-group">
+
+                        <p class="file-upload-label" id="file-upload-label">
+                            ATTACH A FILE
+                        </p>
+
+                        <!-- File attachment placeholder (not currently functional) -->
+                        <button
+                            type="button"
+                            class="file-upload-button"
+                            aria-describedby="file-upload-note"
+                            disabled
+                        >
+                            <span aria-hidden="true">＋</span>
+                            ATTACH FILE
+                        </button>
+
+                        <p class="file-upload-note" id="file-upload-note">
+                            File attachments are currently unavailable. Please share
+                            your references, moodboards or project materials in the
+                            project description.
+                        </p>
+
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="submit-button">
+                        REQUEST A PROPOSAL ↗
+                    </button>
+
+                    <!-- Form success message -->
+                    <p class="success-message"
+                       id="success-message"
+                       role="status"
+                       aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">SONORA®</a>
+
+                <p>
+                    Feel the Sound.<br>
+                    See the Vision.
+                </p>
+
+            </div>
+
+
+            <div class="footer-message">
+
+                <h2>LET'S CREATE<br>SOMETHING MEANINGFUL.</h2>
+
+                <a href="#contact">START A PROJECT ↗</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+                    <h3>EXPLORE</h3>
+                    <a href="#work">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#process">Process</a>
+                </div>
+
+                <div>
+                    <h3>CONNECT</h3>
+                    <a href="#contact">Contact</a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+                    <a href="mailto:hello@sonora.studio">Email ↗</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Footer copyright -->
+        <div class="footer-bottom">
+
+            <p>© 2026 SONORA® — MUSIC & CULTURE CREATIVE STUDIO</p>
+
+            <p>DESIGNED WITH CREATIVE INTENTION.</p>
+
+        </div>
+
+
+        <!-- Project credits and AI disclosure -->
+        <div class="credits">
+
+            <p>
+                AI DISCLOSURE: AI-generated imagery by ChatGPT was used
+                as visual content for Anson's fictional student project.
+            </p>
+
+            <p>
+                All project names and client concepts are fictional.
+            </p>
+
+            <p>
+                RESOURCE CREDITS: Fonts are provided by Google Fonts
+                (Bodoni Moda, Inter and Space Grotesk). AI-generated imagery
+                is disclosed above.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Service detail modal -->
+    <div class="service-modal"
+         id="service-modal"
+         aria-hidden="true">
+
+        <div class="modal-overlay"></div>
+
+        <div class="modal-container"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="modal-title">
+
+            <button class="modal-close"
+                    id="modal-close"
+                    type="button"
+                    aria-label="Close service details">
+                &times;
+            </button>
+
+
+            <!-- Service image -->
+            <div class="modal-image">
+
+                <img
+                    id="modal-image"
+                    src="assets/images/service-artist-identity.jpg"
+                    alt="SONORA service example"
+                >
+
+            </div>
+
+
+            <!-- Service details -->
+            <div class="modal-details">
+
+                <p class="modal-number" id="modal-number">
+                    01 / SERVICE
+                </p>
+
+                <h2 id="modal-title">ARTIST IDENTITY</h2>
+
+                <p class="modal-tagline" id="modal-tagline"></p>
+
+                <p class="modal-description"
+                   id="modal-description"></p>
+
+
+                <h3>WHAT'S INCLUDED</h3>
+
+                <ul id="modal-includes"></ul>
+
+
+                <h3>PACKAGES & PRICING</h3>
+
+                <div class="modal-pricing"
+                     id="modal-pricing">
+                </div>
+
+                <p class="modal-note">
+                    All prices are starting estimates in CAD.
+                    Final pricing depends on project scope.
+                </p>
+
+
+                <!-- Button to contact form -->
+                <a href="#contact"
+                   class="modal-cta"
+                   id="modal-cta">
+                    LET'S WORK TOGETHER ↗
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Back to top button -->
+    <button class="back-to-top"
+            id="back-to-top"
+            type="button"
+            aria-label="Back to top">
+
+        ↑
+
+    </button>
+
+</body>
+
+</html>
